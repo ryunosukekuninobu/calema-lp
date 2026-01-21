@@ -11,9 +11,9 @@ return [
     */
 
     'service' => [
-        'name' => env('LP_SERVICE_NAME', 'Your Service Name'),
-        'tagline' => env('LP_TAGLINE', 'Transform your business with our innovative solution'),
-        'description' => env('LP_DESCRIPTION', 'A powerful platform designed to help you manage your business efficiently with multi-tenancy support.'),
+        'name' => env('LP_SERVICE_NAME', 'カレマ クラス'),
+        'tagline' => env('LP_TAGLINE', 'スクール運営を革新するクラウド予約管理システム'),
+        'description' => env('LP_DESCRIPTION', '英会話スクール、ダンススタジオ、音楽教室など、あらゆる習い事教室の予約・管理を効率化するマルチテナント対応SaaSプラットフォーム'),
     ],
 
     /*
@@ -26,10 +26,10 @@ return [
     */
 
     'hero' => [
-        'title' => env('LP_HERO_TITLE', 'Welcome to the Future'),
-        'subtitle' => env('LP_HERO_SUBTITLE', 'Streamline your workflow and boost productivity'),
-        'cta_primary' => env('LP_CTA_PRIMARY', 'Get Started'),
-        'cta_secondary' => env('LP_CTA_SECONDARY', 'Sign In'),
+        'title' => env('LP_HERO_TITLE', 'スクール運営をもっとスマートに'),
+        'subtitle' => env('LP_HERO_SUBTITLE', '予約管理から売上分析まで、教室運営に必要なすべてを一つのプラットフォームで'),
+        'cta_primary' => env('LP_CTA_PRIMARY', '無料で始める'),
+        'cta_secondary' => env('LP_CTA_SECONDARY', 'ログイン'),
     ],
 
     /*
@@ -45,23 +45,23 @@ return [
     'features' => [
         [
             'icon' => 'bolt',
-            'title' => 'Fast & Reliable',
-            'description' => 'Lightning-fast performance with 99.9% uptime guarantee. Your data is always accessible when you need it.',
+            'title' => '簡単予約管理',
+            'description' => '生徒の予約・振替・キャンセルを直感的に管理。カレンダー表示で空き状況も一目瞭然。',
         ],
         [
             'icon' => 'shield-check',
-            'title' => 'Secure by Default',
-            'description' => 'Enterprise-grade security with multi-tenant data isolation. Your data is encrypted and protected.',
+            'title' => 'テナント完全分離',
+            'description' => 'マルチテナント対応で各スクールのデータを完全に分離。セキュリティも万全。',
         ],
         [
             'icon' => 'users',
-            'title' => 'Team Collaboration',
-            'description' => 'Work together seamlessly with real-time collaboration tools and role-based access control.',
+            'title' => '生徒・講師管理',
+            'description' => '生徒情報や講師スケジュールを一元管理。役割ベースのアクセス制御で安全に運用。',
         ],
         [
             'icon' => 'chart-bar',
-            'title' => 'Analytics & Insights',
-            'description' => 'Make data-driven decisions with comprehensive analytics and customizable reports.',
+            'title' => '売上分析',
+            'description' => '予約状況や売上データを可視化。データドリブンな経営判断をサポート。',
         ],
     ],
 
@@ -75,9 +75,9 @@ return [
     */
 
     'cta' => [
-        'title' => env('LP_CTA_TITLE', 'Ready to get started?'),
-        'subtitle' => env('LP_CTA_SUBTITLE', 'Join thousands of teams already using our platform'),
-        'button_text' => env('LP_CTA_BUTTON', 'Create Your Account'),
+        'title' => env('LP_CTA_TITLE', '今すぐ始めてみませんか？'),
+        'subtitle' => env('LP_CTA_SUBTITLE', '多くのスクールがカレマ クラスで運営を効率化しています'),
+        'button_text' => env('LP_CTA_BUTTON', 'テナントを作成'),
     ],
 
     /*
@@ -119,7 +119,7 @@ return [
     */
 
     'footer' => [
-        'company_name' => env('LP_COMPANY_NAME', 'Your Company'),
+        'company_name' => env('LP_COMPANY_NAME', 'Calema'),
         'copyright_year' => date('Y'),
         'links' => [
             [
@@ -127,15 +127,15 @@ return [
                 'url' => '#',
             ],
             [
-                'text' => 'Privacy Policy',
+                'text' => 'プライバシーポリシー',
                 'url' => '#',
             ],
             [
-                'text' => 'Terms of Service',
+                'text' => '利用規約',
                 'url' => '#',
             ],
             [
-                'text' => 'Contact',
+                'text' => 'お問い合わせ',
                 'url' => '#',
             ],
         ],
